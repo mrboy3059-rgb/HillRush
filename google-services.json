@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80305411424",
+    "project_id": "maxfun-v1",
+    "storage_bucket": "maxfun-v1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80305411424:android:975da7c5f51de37adefa05",
+        "android_client_info": {
+          "package_name": "com.maxfun.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKhVm55ax7Tqqr2wzOhya44xH6SstoiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80305411424:android:d9c9b4d7adb39a09defa05",
+        "android_client_info": {
+          "package_name": "com.turayev.maxfun.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKhVm55ax7Tqqr2wzOhya44xH6SstoiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

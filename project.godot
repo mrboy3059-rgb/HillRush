@@ -1,0 +1,28 @@
+; Hill Rush 2D - Godot 4 prototype
+; Android-ready architecture; no external services required for offline mode
+config_version=5
+
+[application]
+config/name="Hill Rush"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[input]
+gas={"deadzone":0.3,"events":[Object(InputEventKey,"physical_keycode":68),Object(InputEventKey,"physical_keycode":4194321)]}
+brake={"deadzone":0.3,"events":[Object(InputEventKey,"physical_keycode":65),Object(InputEventKey,"physical_keycode":4194319)]}
+nitro={"deadzone":0.3,"events":[Object(InputEventKey,"physical_keycode":32)]}
+
+[input_devices]
+pointing/emulate_touch_from_mouse=true
